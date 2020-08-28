@@ -1,0 +1,15 @@
+This is an online schedule retrieval bot based around Python automation for my fellow Costco employees. 
+
+What will be needed for a successful (alpha-build) retrival:
+  1) Valid Costco employee credentials
+  
+  2) Google calendar ID
+    - Can be located by following: https://www.youtube.com/watch?v=j0m5JSNX8qQ
+  
+  3) Google Developer API credentials
+    - Follow this process: https://developers.google.com/calendar/quickstart/python
+    - Keep 'credentials.json' file with all the other files.
+  
+  4) Lastly, chromedriver.exe may need to be re-downloaded.
+    - Available here: https://chromedriver.chromium.org/downloads
+    - Select the one that best fits your computer.
