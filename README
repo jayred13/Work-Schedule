@@ -15,6 +15,7 @@ What will be needed for a successful (alpha-build) retrival:
   4) Lastly, chromedriver.exe may need to be re-downloaded.
     - Available here: https://chromedriver.chromium.org/downloads
     - Select the one that best fits your computer.
+    - Keep in same folder as the rest of the files.
 
 
 ****************************************************************************************
