@@ -1,4 +1,6 @@
-This is an online schedule retrieval bot based around Python automation for my fellow Costco employees. 
+This is an online schedule retrieval bot based around Python automation for my fellow Costco employees.
+*** DISCLAIMER: The program will not take into consideration of schedule updates. Once a workday is retrieved,
+it will keep it. Any changes to that workday are not yet taken into consideration.****
 
 What will be needed for a successful (alpha-build) retrival:
   1) Valid Costco employee credentials
@@ -13,3 +15,16 @@ What will be needed for a successful (alpha-build) retrival:
   4) Lastly, chromedriver.exe may need to be re-downloaded.
     - Available here: https://chromedriver.chromium.org/downloads
     - Select the one that best fits your computer.
+
+
+****************************************************************************************
+
+Plans for future builds:
+- Background running of application.
+- Secure credentials saving so input will only be needed upon first time use. 
+- Most recent workday updated consideration.
+- Multiple browser incorporations.
+- Multiple calendar incorporations.
+- Automation to other sections of the employee portal.
+- Fix StaleElement Bug
+- Moblie or Chrome Extension?
