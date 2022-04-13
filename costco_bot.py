@@ -42,8 +42,8 @@ def login(username, password):
         """Navigate to employee self-service portal."""
         def employee_site():
             print('*** employee_site ***')
-            portal_id = 'div.col-sm-6:nth-child(5) > a:nth-child(5)'
-            login_elem = browser.find_element_by_css_selector(portal_id)
+            portal_id = 'eco-primary-alternate'
+            login_elem = browser.find_element_by_class_name(portal_id) # Element layout updated on website
             login_elem.click()
 
             browser.close()  # Login opens new tab, close and switch
