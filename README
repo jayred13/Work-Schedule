@@ -1,6 +1,6 @@
 This is an online schedule retrieval bot based around Python automation for my fellow Costco employees.
-*** DISCLAIMER: The program will not take into consideration of schedule updates. Once a workday is retrieved,
-it will keep it. Any changes to that workday are not yet taken into consideration.****
+*** DISCLAIMER: The program will not take into consideration of schedule updates. Program must be run again after
+the update has been made. Cosider running program once daily or as needed****
 
 What will be needed for a successful (alpha-build) retrival:
   1) Valid Costco employee credentials
@@ -23,7 +23,6 @@ What will be needed for a successful (alpha-build) retrival:
 Plans for future builds:
 - Background running of application.
 - Secure credentials saving so input will only be needed upon first time use. 
-- Most recent workday updated consideration.
 - Multiple browser incorporations.
 - Multiple calendar incorporations.
 - Automation to other sections of the employee portal.
